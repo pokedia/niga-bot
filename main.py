@@ -3,8 +3,13 @@ from discord.ext import commands, tasks
 import json
 import time
 import os
-# Bot Token
-TOKEN = "MTMzOTg5MTg1NDI3OTE4NDQwNA.GTkmJW.3DFY_-8uReNuRIMIXXM-rPRsvbPHhTlK_aWFzk"  # 🔹 Replace with your actual token
+from dotenv import load_dotenv
+
+load_dotenv()  # Load .env file
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+
+bot = discord.Bot()
 
 # Server & Channel Info
 GUILD_ID = 1339192279470178375  # 🔹 Your server ID
