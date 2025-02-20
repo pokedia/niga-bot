@@ -4,7 +4,7 @@ import json
 import time
 import os
 # Bot Token
-TOKEN = "MTMzOTg5MTg1NDI3OTE4NDQwNA.GnBpoF._QAv7My6xlQ8E2rPChb_9zlgZEKc5SeDYrHzF0"  # 🔹 Replace with your actual token
+TOKEN = "MTMzOTg5MTg1NDI3OTE4NDQwNA.GTkmJW.3DFY_-8uReNuRIMIXXM-rPRsvbPHhTlK_aWFzk"  # 🔹 Replace with your actual token
 
 # Server & Channel Info
 GUILD_ID = 1339192279470178375  # 🔹 Your server ID
